@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  @keyframes spin360 {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  --animate-spin360: spin360 1s ease-in-out;
+
+  --color-gruvbox-bg: #282828;
+  --color-gruvbox-bg0: #282828;
+  --color-gruvbox-bgH: #1d2021;
+  --color-gruvbox-bgS: #32302f;
+  --color-gruvbox-bg1: #3c3836;
+  --color-gruvbox-bg2: #504945;
+  --color-gruvbox-bg3: #665c54;
+  --color-gruvbox-bg4: #7c6f64;
+
+  --color-gruvbox-fg: #ebdbb2;
+  --color-gruvbox-fg0: #fbf1c7;
+  --color-gruvbox-fg1: #ebdbb2;
+  --color-gruvbox-fg2: #d5c4a1;
+  --color-gruvbox-fg3: #bdae93;
+  --color-gruvbox-fg4: #a89984;
+
+  --color-gruvbox-red: #cc241d;
+  --color-gruvbox-red2: #fb4934;
+  --color-gruvbox-green: #98971a;
+  --color-gruvbox-green2: #b8bb26;
+  --color-gruvbox-yellow: #d79921;
+  --color-gruvbox-yellow2: #fabd2f;
+  --color-gruvbox-blue: #458588;
+  --color-gruvbox-blue2: #83a598;
+  --color-gruvbox-purple: #b16286;
+  --color-gruvbox-purple2: #d3869b;
+  --color-gruvbox-aqua: #689d6a;
+  --color-gruvbox-aqua2: #8ec07c;
+  --color-gruvbox-orange: #d65d0e;
+  --color-gruvbox-orange2: #fe8019;
+  --color-gruvbox-gray: #a89984;
+  --color-gruvbox-gray2: #928374;
+}
+
+@variant light (&:where(.light, .light *));
+
+@utility light {
+  --color-gruvbox-bg: #fbf1c7;
+  --color-gruvbox-bg0: #fbf1c7;
+  --color-gruvbox-bgH: #f9f5d7;
+  --color-gruvbox-bgS: #f2e5bc;
+  --color-gruvbox-bg1: #ebdbb2;
+  --color-gruvbox-bg2: #d5c4a1;
+  --color-gruvbox-bg3: #bdae93;
+  --color-gruvbox-bg4: #a89984;
+
+  --color-gruvbox-fg: #3c3836;
+  --color-gruvbox-fg0: #282828;
+  --color-gruvbox-fg1: #3c3836;
+  --color-gruvbox-fg2: #504945;
+  --color-gruvbox-fg3: #665c54;
+  --color-gruvbox-fg4: #7c6f64;
+
+  --color-gruvbox-red: #cc241d;
+  --color-gruvbox-red2: #9d0006;
+  --color-gruvbox-green: #98971a;
+  --color-gruvbox-green2: #79740e;
+  --color-gruvbox-yellow: #d79921;
+  --color-gruvbox-yellow2: #b57614;
+  --color-gruvbox-blue: #458588;
+  --color-gruvbox-blue2: #076678;
+  --color-gruvbox-purple: #b16286;
+  --color-gruvbox-purple2: #8f3f71;
+  --color-gruvbox-aqua: #689d6a;
+  --color-gruvbox-aqua2: #427b58;
+  --color-gruvbox-orange: #d65d0e;
+  --color-gruvbox-orange2: #af3a03;
+  --color-gruvbox-gray: #7c6f64;
+  --color-gruvbox-gray2: #928374;
+}
