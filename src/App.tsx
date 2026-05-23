@@ -2,6 +2,9 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaInstagram, FaLinkedin, FaSpotify } from "react-icons/fa";
+import putrid from './assets/putrid.webp';
+import elearning from './assets/elearning_bslc.png';
+import ispm from './assets/ispm_newrecruitment.png';
 
 interface Project {
   title: string;
@@ -16,14 +19,14 @@ const PROJECTS_DATA: Project[] = [
     title: "E-Learning by BSLC",
     role: "Contributor",
     description: "A web app that lets students download learning modules for their courses. I worked as one of the backend developers in this project.",
-    imageUrl: "src/assets/elearning_bslc.png",
+    imageUrl: elearning,
     projectUrl: "https://elearning.bslc.or.id/",
   },
   {
     title: "BINUS Information System Laboratorium Recruitment Site",
     role: "Contributor",
     description: "A website for recruiting new information systems lab members. Working on this project was one of my duties as an information systems lab project member. I worked as one of the backend developers.",
-    imageUrl: "src/assets/ispm_newrecruitment.png",
+    imageUrl: ispm,
     projectUrl: "https://islab.apps.binus.ac.id/recruitmentislab/",
   },
 ];
@@ -105,7 +108,7 @@ const App = () => {
             </div>
           </div>
           <img
-            src="src/assets/putrid.webp"
+            src={putrid}
             alt="ugly mug"
             className="w-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg lg:w-1/2 xl:max-w-xl max-h-[50vh] object-cover rounded-md mt-6 lg:mt-0 shadow-md"
           />
