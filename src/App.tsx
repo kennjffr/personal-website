@@ -73,7 +73,7 @@ const App = () => {
               </h2>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://github.com/reeesus"
+                  href="https://github.com/kennjffr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-row items-center gap-3 rounded-md border border-gruvbox-fg py-1 px-2.5 text-center text-sm transition-all shadow-sm hover:bg-gruvbox-fg hover:text-gruvbox-bg light:hover:bg-gruvbox-fg light:hover:text-gruvbox-bg duration-100"

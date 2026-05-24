@@ -2,7 +2,7 @@ import { Instagram, Linkedin, Mail } from "react-feather";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto py-20 border-t border-gruvbox-bg1 bg-gruvbox-bgH light:bg-gruvbox-bg0 transition-colors duration-300">
+    <footer className="mt-auto py-20 border-t border-gruvbox-bg1 light:bg-gruvbox-bg0 transition-colors duration-300">
       <div className="flex flex-col gap-10 md:flex-row items-center justify-between content-evenly mx-auto px-8 max-w-6xl">
         <div className="flex flex-col text-sm gap-4 text-gruvbox-fg text-light:text-gruvbox-fg4 text-center md:text-left">
           <h2 className="text-gruvbox-red font-semibold uppercase tracking-wider text-xs">Contact me!</h2>
